@@ -21,7 +21,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src='https://github.com/darras4/WP-vs-Kali/blob/main/2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: 
     - Upload an image as admin.
     - In the description, add filename <script>alert("Hack Successful");</script> .
