@@ -38,10 +38,11 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: <img src='https://github.com/darras4/WP-vs-Kali/blob/main/3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: 
     - As admin, go to Media -> Library -> Add New OR Edit uploaded picture
-    - Edit picture name to 
-    '''
+    - Edit picture name to:
+
+    ```
     You've Been Hacked!<img src=a onerror=alert(document.cookie)>.jpg
-    '''
+    ```
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/e84eaf3f-677a-465a-8f96-ea4cf074c980)
 
