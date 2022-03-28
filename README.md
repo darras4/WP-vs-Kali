@@ -23,9 +23,11 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-    - Upload an image as admin
+    - Upload an image as admin.
+    - In the description, add filename <script>alert("Hack Successful");</script> .
+    - Click view attachment page.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpscan.com/vulnerability/741d07d1-2476-430a-b82f-e1228a9343a4)
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
