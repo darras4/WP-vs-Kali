@@ -30,15 +30,20 @@ Time spent: **X** hours spent in total
     - Click view attachment page.
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/741d07d1-2476-430a-b82f-e1228a9343a4)
-### 3. (Required) Vulnerability Name or ID
+### 3. (Required) WordPress Authenticated Stored Cross-Site Scripting via Image Filename
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.6
+  - [ ] GIF Walkthrough: <img src='https://github.com/darras4/WP-vs-Kali/blob/main/3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: 
+    - As admin, go to Media -> Library -> Add New OR Edit uploaded picture
+    - Edit picture name to You've Been Hacked!<img src=a onerror=alert(document.cookie)>.jpg
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpscan.com/vulnerability/e84eaf3f-677a-465a-8f96-ea4cf074c980)
+
+
+
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
