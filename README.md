@@ -8,7 +8,7 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 ### 1. (Required) Unauthenticated Stored Cross-Site Scripting
-  - [ ] Summary: 
+  - [ ] Summary: Allows a user to exploit a SQL type by using a comment. 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
@@ -19,7 +19,7 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/wordpress-4-2-core-stored-xss/)
 ### 2. (Required) Authenticated Cross-Site Scripting via Media File Metadata
-  - [ ] Summary: 
+  - [ ] Summary: Allows an authenticated user to exploit the website by changing the file description of an image.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
@@ -31,7 +31,7 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/741d07d1-2476-430a-b82f-e1228a9343a4)
 ### 3. (Required) WordPress Authenticated Stored Cross-Site Scripting via Image Filename
-  - [ ] Summary: 
+  - [ ] Summary: Allows an authenticated user to exploit the website by changing the name of an image.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.6
